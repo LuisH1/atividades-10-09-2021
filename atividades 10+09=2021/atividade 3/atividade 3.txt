@@ -1,0 +1,35 @@
+1)      Faça uma função que recebe 2 valores:
+
+a)       Se o primeiro valor for zero, imprimir no console o texto "Valor Inválido!".
+
+b)      Se o primeiro valor não for zero, obter o resto da divisão do primeiro valor pelo segundo e escrever no console o resultado.
+
+>
+function valores(valor1,valor2){
+ if ( valor1 == 0){
+   console.log("valor invalido")
+ } 
+  else  {
+    let resultado = valor1%valor2
+  console.log(resultado)
+    }
+}
+
+2)      Faça uma função que escreva no console 10 primeiros números inteiros maiores que 100.
+
+> function numero(){
+  for(let inteiro = 100; inteiro <=110;inteiro++){
+    console.log(inteiro)
+  }
+  
+} 
+
+3)      Faça uma função que gera e escreve os números ímpares entre 100 e 200
+
+>>function impar(){
+  for(let inteiro = 100; inteiro <=200;inteiro++){
+   if  (inteiro %2 !=0)
+    console.log(inteiro)
+  }
+  
+}
